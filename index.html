@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Us for Christ Band</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FullCalendar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@3.0.0/dist/fullcalendar.min.css" rel="stylesheet">
+    <!-- FontAwesome for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <img src="test4.png" alt="Us for Christ Band Logo" class="logo">
+        <h3>Us for Christ Band</h3><br>
+        <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div class="hero-section" id="home">
+        <h1>Welcome to Us for Christ Band's Official Website</h1>
+        <p>Experience the uplifting sounds of our Christian worship music covers.</p>
+        <button class="calendar-button" id="calendarButton">View Calendar</button>
+
+    <div id="calendarOverlay">
+    <div id="calendar">
+        <center><button class="calendar-button" id="closeButton">Close</button></center></br>
+        <!-- Embed your Google Calendar here -->
+        <iframe src="https://calendar.google.com/calendar/embed?src=f081262972ff78305bf6cf68009b268e31b72c894bc4a53e016a419c59b2a5c2%40group.calendar.google.com&ctz=UTC" style="border: 0" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+    </div>
+    </div>
+    </div>
+
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p class="intro-text">Perceiving, conceiving, feeling, and dispensing Christ through music, vibing and grooving in Christ.</p>
+        <div class="about-content">
+            <div class="band-description">
+                <h3>Our Mission</h3>
+                <p>Us for Christ Band is a dynamic Christian worship group, dedicated to spreading the gospel of Jesus Christ through music. Our members are deeply devoted to sharing God's love and power through the songs we perform. We are not just a band; we are a community of believers who have witnessed His work in our lives and seek to inspire others through our music.</p>
+            </div>
+            <div class="band-history">
+                <h3>Our History</h3>
+                <p>Founded in 2019, Us for Christ Band has grown rapidly in both size and spirit. What started as a group of passionate musicians coming together for worship, has now turned into a thriving ministry that continues to touch lives. Each day, we strive to grow in faith and music, and soon we will be releasing our very own composed songs!</p>
+            </div>
+            <div class="band-members">
+                <h3>Our Devoted Members</h3>
+                <p>Though our members are many, we all share the same devotion to spreading the gospel of Jesus Christ through music. Every member brings their unique gift and passion to the table, and together, we are building a powerful ministry that reflects the love of Christ. We have all witnessed His transformative power in our lives, and through our music, we aim to help others experience the same.</p>
+            </div>
+            <div class="music-style">
+                <h3>Our Music Style</h3>
+                <p>We are passionate about all forms of worship music—praise, black gospel, and contemporary Christian worship. Our style blends uplifting rhythms, heartfelt lyrics, and powerful melodies that invite people into deeper worship. From the soulful beats of black gospel to the joyful sounds of praise, our music is designed to lead people closer to Christ.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendar Overlay -->
+    <div id="calendarOverlay" class="calendar-overlay">
+        <div class="calendar-container">
+            <button onclick="closeCalendar()" class="close-button">Close</button>
+            <div id="calendar"></div>
+        </div>
+    </div>
+
+    <section class="section" id="contact">
+        <h2>Get in Touch</h2>
+        <p class="intro-text">We'd love to hear from you! Our team is here to assist you and will get back to you as soon as possible.</p>
+        <div class="contact-details">
+            <div class="contact-item">
+                <h3>Email Us</h3>
+                <p>If you have any questions or need more information, feel free to email us directly at:</p>
+                <a href="mailto:usforchrist7@gmail.com">usforchrist7@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <h3>Follow Us on Social Media</h3>
+                <p>Stay connected and join us on our journey! Find us on these platforms:</p>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/us_for_christ_band/profilecard/?igsh=MXMxZmNoemp2cWU0cg== " target="_blank" class="social-icon fb"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/us_for_christ_band" target="_blank" class="social-icon ig"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@usforchristband" target="_blank" class="social-icon tt"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/channel/usforchristband" target="_blank" class="social-icon yt"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <h3>Phone</h3>
+                <p>For urgent bookings or inquiries, feel free to call us at:</p>
+                <a href="tel:+254720805524">+254 720 805 524</a>
+            </div>
+            <!-- New Item Added for Balance -->
+            <div class="contact-item">
+                <h3>Location</h3>
+                <p>You can also find us in Full Gospel Churches of Kenya Buruburu, Nairobi, Kenya. </p>
+                <a href="https://www.google.com/maps?q=Buruburu Full Gospel Churches of Kenya,Nairobi" target="_blank">View on Map</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Us for Christ Band. All rights reserved.</p>
+        <p>Located in Buruburu, Nairobi, Kenya</p>
+        <p>Follow us on social media for updates and worship moments.</p>
+    </footer>
+
+    
+
+   <!-- Google Calendar API and FullCalendar Integration -->
+   <script>
+    function showCalendar() {
+        document.getElementById("calendarOverlay").style.display = "flex";
+    }
+
+    function closeCalendar() {
+        document.getElementById("calendarOverlay").style.display = "none";
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('calendarButton').addEventListener('click', showCalendar);
+        document.getElementById('closeButton').addEventListener('click', closeCalendar);
+    });
+</script>
+
+   <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const menuIcon = document.querySelector(".menu-icon");
+      const menu = document.querySelector(".nav-links");
+  
+      menuIcon.addEventListener("click", function() {
+          menu.classList.toggle("active");
+      });
+  });
+  // Mobile Menu
+const menu = document.querySelector('.menu');
+const menuBars = document.querySelectorAll('.menu .bars');
+const menuList = document.querySelector('.nav-links');
+
+menu.addEventListener('click', () => {
+  menu.classList.toggle('active');
+  menuList.classList.toggle('active');
+  menuBars.forEach(bar => {
+    bar.classList.toggle('active');
+  });
+});
+  </script>
+</body>
+</html>
