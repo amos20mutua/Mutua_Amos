@@ -76,7 +76,7 @@ body {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #f04e30;
+    background-color: #d4adad;
     border: none;
     color: white;
     cursor: pointer;
@@ -84,7 +84,7 @@ body {
 }
 
 .calendar-button:hover {
-    background-color: #d93d24;
+    background-color: hsl(194, 84%, 50%);
     transition: background-color 0.3s ease;
     transition: transform 0.3s ease;
     transform: scale(1.1);
